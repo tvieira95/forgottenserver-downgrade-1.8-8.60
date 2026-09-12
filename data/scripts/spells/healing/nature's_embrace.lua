@@ -93,6 +93,6 @@ spell:isAggressive(false)
 spell:isBlockingWalls(true)
 spell:hasParams(true)
 spell:hasPlayerNameParam(true)
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("druid;true", "elder druid;true", "cleric;true", "hierophant;true")
 
 spell:register()

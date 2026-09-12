@@ -24,7 +24,7 @@ end
 spell:name("Intense Wound Cleansing")
 spell:words("exura gran ico")
 spell:group("healing")
-spell:vocation("knight;true", "elite knight;true")
+spell:vocation("knight;true", "elite knight;true", "warlord;true", "dreadlord;true")
 spell:castSound(SOUND_EFFECT_TYPE_SPELL_INTENSE_WOUND_CLEANSING)
 spell:id(158)
 spell:cooldown(120000) -- Vocation Adjustment: 10min -> 2min

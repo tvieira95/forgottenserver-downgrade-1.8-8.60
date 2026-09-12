@@ -31,5 +31,5 @@ spell:allowFarUse(true)
 spell:magicLevel(4)
 spell:charges(5)
 spell:isBlocking(true) -- True = Solid / False = Creature
-spell:vocation("paladin", "royal paladin")
+spell:vocation("paladin", "royal paladin", "ranger", "huntsman")
 spell:register()

@@ -22,7 +22,7 @@ local potionData = {
 	},
 	[7439] = {
 		condition = berserk,
-		vocations = {4, 8},
+		vocations = {4, 8, 11, 12},
 		effect = CONST_ME_MAGIC_RED,
 		description = "Only knights may drink this potion.",
 		text = "You feel stronger."
@@ -36,21 +36,21 @@ local potionData = {
 	},
 	[7443] = {
 		condition = bullseye,
-		vocations = {3, 7},
+		vocations = {3, 7, 13, 14},
 		effect = CONST_ME_MAGIC_GREEN,
 		description = "Only paladins may drink this potion.",
 		text = "You feel more accurate."
 	},
 	[236] = {
 		health = {250, 350},
-		vocations = {3, 4, 7, 8, 9, 10},
+		vocations = {3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 19, 20},
 		level = 50,
 		flask = 283,
 		description = "Only knights, monks and paladins of level 50 or above may drink this fluid."
 	},
 	[237] = {
 		mana = {115, 185},
-		vocations = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10},
+		vocations = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20},
 		level = 50,
 		flask = 283,
 		description = "Only sorcerers, druids, knights, monks and paladins of level 50 or above may drink this fluid."
@@ -63,14 +63,14 @@ local potionData = {
 	},
 	[23373] = {
 		mana = {450, 550},
-		vocations = {1, 2, 5, 6},
+		vocations = {1, 2, 5, 6, 15, 16, 17, 18},
 		level = 130,
 		flask = 284,
 		description = "Only druids and sorcerers of level 130 or above may drink this fluid."
 	},
 	[239] = {
 		health = {430, 575},
-		vocations = {4, 8, 9, 10},
+		vocations = {4, 8, 9, 10, 11, 12, 19, 20},
 		level = 80,
 		flask = 284,
 		description = "Only knights and monks of level 80 or above may drink this fluid."
@@ -86,7 +86,7 @@ local potionData = {
 	[7642] = {
 		health = {250, 350},
 		mana = {100, 200},
-		vocations = {3, 7, 9, 10},
+		vocations = {3, 7, 9, 10, 13, 14, 19, 20},
 		level = 80,
 		flask = 284,
 		description = "Only paladins and monks of level 80 or above may drink this fluid."
@@ -101,21 +101,21 @@ local potionData = {
 	},
 	[7643] = {
 		health = {650, 850},
-		vocations = {4, 8, 9, 10},
+		vocations = {4, 8, 9, 10, 11, 12, 19, 20},
 		level = 130,
 		flask = 284,
 		description = "Only knights and monks of level 130 or above may drink this fluid."
 	},
 	[23375] = {
 		health = {900, 1050},
-		vocations = {4, 8, 9, 10},
+		vocations = {4, 8, 9, 10, 11, 12, 19, 20},
 		level = 200,
 		flask = 284,
 		description = "Only knights and monks of level 200 or above may drink this fluid."
 	},
 	[53162] = {
 		mana = {240, 360},
-		vocations = {1, 2, 3, 5, 6, 7, 9, 10},
+		vocations = {1, 2, 3, 5, 6, 7, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20},
 		level = 100,
 		flask = 284,
 		description = "Only paladins, monks, sorcerers and druids of level 100 or above may drink this fluid."

@@ -22,7 +22,7 @@ end
 spell:name("Restore Balance")
 spell:words("exura tio sio")
 spell:group("healing")
-spell:vocation("monk", "exalted monk")
+spell:vocation("monk", "exalted monk", "soulwarden", "astral master")
 spell:id(297)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(1 * 1000)

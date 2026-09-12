@@ -20,7 +20,7 @@ end
 spell:name("Aura of Sapped Strength")
 spell:words("exori moe tempo")
 spell:group("support", "crippling")
-spell:vocation("sorcerer;true", "master sorcerer;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "runelord;true", "archmage;true")
 spell:id(311)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000, 2 * 1000)

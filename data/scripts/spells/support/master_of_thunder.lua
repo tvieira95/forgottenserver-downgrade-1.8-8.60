@@ -27,7 +27,7 @@ end
 spell:name("Master of Thunder")
 spell:words("uteta vis")
 spell:group("support", "stance")
-spell:vocation("sorcerer;true", "master sorcerer;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "runelord;true", "archmage;true")
 spell:id(305)
 spell:cooldown(30 * 1000)
 spell:groupCooldown(2 * 1000, 30 * 1000)

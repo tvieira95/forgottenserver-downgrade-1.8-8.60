@@ -88,5 +88,5 @@ spell:blockWalls(true)
 spell:cooldown(30 * 1000)
 spell:groupCooldown(2 * 1000, 30 * 1000)
 
-spell:vocation("sorcerer;true", "master sorcerer;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "runelord;true", "archmage;true")
 spell:register()

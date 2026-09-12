@@ -33,6 +33,6 @@ spell:isSelfTarget(true)
 spell:cooldown(1000)
 spell:groupCooldown(2 * 1000) -- Phase A rebalance: 1s -> 2s
 spell:isAggressive(false)
-spell:vocation("knight;true", "elite knight;true")
+spell:vocation("knight;true", "elite knight;true", "warlord;true", "dreadlord;true")
 
 spell:register()

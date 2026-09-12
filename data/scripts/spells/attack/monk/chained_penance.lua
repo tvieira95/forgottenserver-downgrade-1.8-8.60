@@ -187,5 +187,5 @@ spell:castSound(SOUND_EFFECT_TYPE_SPELL_FLURRY_OF_BLOWS)
 spell:groupCooldown(2 * 1000)
 spell:cooldown(4 * 1000)
 
-spell:vocation("monk;true", "exalted monk;true")
+spell:vocation("monk;true", "exalted monk;true", "soulwarden;true", "astral master;true")
 spell:register()

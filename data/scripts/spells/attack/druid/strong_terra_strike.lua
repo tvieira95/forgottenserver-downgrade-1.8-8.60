@@ -35,5 +35,5 @@ spell:blockWalls(true)
 spell:cooldown(8 * 1000)
 spell:groupCooldown(2 * 1000, 8 * 1000)
 
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("druid;true", "elder druid;true", "cleric;true", "hierophant;true")
 spell:register()

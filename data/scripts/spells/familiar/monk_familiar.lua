@@ -15,5 +15,5 @@ spell:cooldown(0) -- calculated in CreateFamiliarSpell
 spell:groupCooldown(2 * 1000)
 spell:needLearn(false)
 spell:isAggressive(false)
-spell:vocation("monk", "exalted monk")
+spell:vocation("monk", "exalted monk", "soulwarden", "astral master")
 spell:register()

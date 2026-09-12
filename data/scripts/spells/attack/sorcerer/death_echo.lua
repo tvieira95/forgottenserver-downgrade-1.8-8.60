@@ -113,5 +113,5 @@ spell:cooldown(6 * 1000)
 spell:groupCooldown(2 * 1000)
 spell:needLearn(false)
 
-spell:vocation("sorcerer;true", "master sorcerer;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "runelord;true", "archmage;true")
 spell:register()

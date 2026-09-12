@@ -27,7 +27,7 @@ end
 spell:name("Divine Defiance")
 spell:words("utori hur")
 spell:group("support", "stance")
-spell:vocation("paladin;true", "royal paladin;true")
+spell:vocation("paladin;true", "royal paladin;true", "ranger;true", "huntsman;true")
 spell:id(314)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000, 2 * 1000)

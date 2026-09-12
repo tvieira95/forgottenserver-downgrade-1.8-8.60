@@ -69,7 +69,7 @@ end
 spell:name("Mass Spirit Mend")
 spell:words("exura mas nia")
 spell:group("healing")
-spell:vocation("monk;true", "exalted monk;true")
+spell:vocation("monk;true", "exalted monk;true", "soulwarden;true", "astral master;true")
 spell:id(296)
 spell:cooldown(12 * 1000)
 spell:groupCooldown(2 * 1000)

@@ -21,7 +21,7 @@ end
 spell:name("Spirit Mend")
 spell:words("exura gran tio")
 spell:group("healing")
-spell:vocation("monk", "exalted monk")
+spell:vocation("monk", "exalted monk", "soulwarden", "astral master")
 spell:id(273)
 spell:cooldown(1000)
 spell:groupCooldown(1000)

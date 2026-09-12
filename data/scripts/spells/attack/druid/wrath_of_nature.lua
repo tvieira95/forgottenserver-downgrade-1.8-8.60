@@ -32,5 +32,5 @@ spell:isSelfTarget(true)
 spell:cooldown(40 * 1000)
 spell:groupCooldown(4 * 1000, 40 * 1000)
 
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("druid;true", "elder druid;true", "cleric;true", "hierophant;true")
 spell:register()

@@ -24,7 +24,7 @@ end
 spell:name("Bruise Bane")
 spell:words("exura infir ico")
 spell:group("healing")
-spell:vocation("knight;true", "elite knight;true")
+spell:vocation("knight;true", "elite knight;true", "warlord;true", "dreadlord;true")
 spell:castSound(SOUND_EFFECT_TYPE_SPELL_BRUISE_BANE)
 spell:id(170)
 spell:cooldown(1000)

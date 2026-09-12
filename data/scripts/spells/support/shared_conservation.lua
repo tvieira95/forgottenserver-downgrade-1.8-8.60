@@ -28,7 +28,7 @@ end
 spell:name("Shared Conservation")
 spell:words("utura sio")
 spell:group("support", "stance")
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("druid;true", "elder druid;true", "cleric;true", "hierophant;true")
 spell:id(309)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000, 2 * 1000)

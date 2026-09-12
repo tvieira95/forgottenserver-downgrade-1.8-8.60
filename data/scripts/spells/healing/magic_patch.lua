@@ -21,7 +21,7 @@ end
 spell:name("Magic Patch")
 spell:words("exura infir")
 spell:group("healing")
-spell:vocation("druid;true", "elder druid;true", "paladin;true", "royal paladin;true", "sorcerer;true", "master sorcerer;true", "monk;true", "exalted monk;true")
+spell:vocation("druid;true", "elder druid;true", "paladin;true", "royal paladin;true", "sorcerer;true", "master sorcerer;true", "monk;true", "exalted monk;true", "cleric;true", "hierophant;true", "ranger;true", "huntsman;true", "runelord;true", "archmage;true", "soulwarden;true", "astral master;true")
 spell:id(174)
 spell:cooldown(1 * 1000)
 spell:groupCooldown(1 * 1000)

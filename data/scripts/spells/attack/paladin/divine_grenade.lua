@@ -109,5 +109,5 @@ spell:isAggressive(true) -- attack grenade: applies in-fight and is blocked in p
 spell:cooldown(26 * 1000)
 spell:groupCooldown(2 * 1000)
 
-spell:vocation("paladin;true", "royal paladin;true")
+spell:vocation("paladin;true", "royal paladin;true", "ranger;true", "huntsman;true")
 spell:register()

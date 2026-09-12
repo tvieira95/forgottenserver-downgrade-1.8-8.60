@@ -12,7 +12,7 @@ end
 spell:name("Cure Burning")
 spell:words("exana flam")
 spell:group("healing")
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("druid;true", "elder druid;true", "cleric;true", "hierophant;true")
 spell:id(145)
 spell:cooldown(3000)
 spell:groupCooldown(1000)

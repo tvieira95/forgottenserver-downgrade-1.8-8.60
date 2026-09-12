@@ -12,7 +12,7 @@ end
 spell:name("Cure Electrification")
 spell:words("exana vis")
 spell:group("healing")
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("druid;true", "elder druid;true", "cleric;true", "hierophant;true")
 spell:id(146)
 spell:cooldown(3000)
 spell:groupCooldown(1000)

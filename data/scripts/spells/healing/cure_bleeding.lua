@@ -12,7 +12,7 @@ end
 spell:name("Cure Bleeding")
 spell:words("exana kor")
 spell:group("healing")
-spell:vocation("druid;true", "elder druid;true", "knight;true", "elite knight;true")
+spell:vocation("druid;true", "elder druid;true", "knight;true", "elite knight;true", "cleric;true", "hierophant;true", "warlord;true", "dreadlord;true")
 spell:id(144)
 spell:cooldown(3000)
 spell:groupCooldown(1000)

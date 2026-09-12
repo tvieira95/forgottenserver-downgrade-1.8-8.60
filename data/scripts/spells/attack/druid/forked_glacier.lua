@@ -48,5 +48,5 @@ spell:cooldown(6 * 1000)
 spell:groupCooldown(2 * 1000, 2 * 1000)
 spell:needLearn(false)
 
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("druid;true", "elder druid;true", "cleric;true", "hierophant;true")
 spell:register()

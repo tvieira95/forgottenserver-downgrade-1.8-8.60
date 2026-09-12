@@ -30,7 +30,7 @@ end
 spell:name("Blood Rage")
 spell:words("utito tempo")
 spell:group("support", "stance")
-spell:vocation("knight;true", "elite knight;true")
+spell:vocation("knight;true", "elite knight;true", "warlord;true", "dreadlord;true")
 spell:castSound(SOUND_EFFECT_TYPE_SPELL_BLOOD_RAGE)
 spell:id(133)
 spell:cooldown(2 * 1000)

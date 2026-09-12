@@ -101,5 +101,5 @@ spell:needWeapon(false)
 spell:cooldown(24 * 1000)
 spell:groupCooldown(2 * 1000)
 
-spell:vocation("monk;true", "exalted monk;true")
+spell:vocation("monk;true", "exalted monk;true", "soulwarden;true", "astral master;true")
 spell:register()
