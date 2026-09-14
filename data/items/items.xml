@@ -66559,6 +66559,30 @@
 	<item id="40586" article="a" name="carnivostrich feather">
 		<attribute key="weight" value="120" />
 	</item>
+	<item id="40527" article="a" name="rotten feather">
+		<attribute key="weight" value="100"/>
+	</item>
+	<item id="40528" article="a" name="ritual tooth">
+		<attribute key="weight" value="100"/>
+	</item>
+	<item id="40529" name="gold-brocaded cloth">
+		<attribute key="weight" value="100"/>
+	</item>
+	<item id="44438" article="a" name="broken mitmah necklace">
+		<attribute key="weight" value="100"/>
+	</item>
+	<item id="44439" article="a" name="crystal of the mitmah">
+		<attribute key="weight" value="100"/>
+	</item>
+	<item id="44727" article="a" name="broken mitmah chestplate">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="44728" article="a" name="splintered mitmah gem">
+		<attribute key="weight" value="100"/>
+	</item>
+	<item id="44739" name="encrypted notes">
+		<attribute key="weight" value="100"/>
+	</item>
 	<item id="40587" article="a" name="rhindeer antlers">
 		<attribute key="weight" value="570" />
 	</item>
@@ -77428,6 +77452,328 @@
 		</attribute>
 		<attribute key="classification" value="4" />
 	</item>
+	<item id="52348" article="a" name="stag helmet">
+		<attribute key="primarytype" value="helmets"/>
+		<attribute key="firemagiclevelpoints" value="2"/>
+		<attribute key="absorbpercentenergy" value="8"/>
+		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="absorbpercentphysical" value="2"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="weight" value="1400"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="great fire wave" value="critical hit chance">
+				<attribute key="value" value="650"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="head"/>
+			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer, Runelord, Archmage"/>
+		</attribute>
+		<attribute key="classification" value="4" />
+	</item>
+	<item id="52349" article="a" name="stag robe">
+		<attribute key="primarytype" value="armors"/>
+		<attribute key="absorbpercentphysical" value="4"/>
+		<attribute key="skillfist" value="4"/>
+		<attribute key="armor" value="10"/>
+		<attribute key="mantra" value="17"/>
+		<attribute key="weight" value="8000"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="spiritual outburst" value="critical hit chance">
+				<attribute key="value" value="100"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="armor"/>
+			<attribute key="vocation" value="Monk;true, Exalted Monk, Soulwarden, Astral Master"/>
+		</attribute>
+		<attribute key="classification" value="4" />
+	</item>
+	<item id="52350" article="a" name="stag plate">
+		<attribute key="primarytype" value="armors"/>
+		<attribute key="absorbpercentphysical" value="6"/>
+		<attribute key="skillshield" value="3"/>
+		<attribute key="skilldist" value="3"/>
+		<attribute key="armor" value="17"/>
+		<attribute key="weight" value="13000"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="3"/>
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="divine grenade" value="critical hit chance">
+				<attribute key="value" value="1000"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="armor"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin, Ranger, Huntsman"/>
+		</attribute>
+		<attribute key="classification" value="4" />
+	</item>
+	<item id="52351" name="stag legs">
+		<attribute key="primarytype" value="legs"/>
+		<attribute key="absorbpercentfire" value="7"/>
+		<attribute key="absorbpercentphysical" value="7"/>
+		<attribute key="skillsword" value="3"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="skillshield" value="2"/>
+		<attribute key="armor" value="10"/>
+		<attribute key="weight" value="1150"/>
+		<attribute key="augments" value="1">
+			<attribute key="fierce berserk" value="critical extra damage">
+				<attribute key="value" value="1000"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="legs"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight, Warlord, Dreadlord"/>
+		</attribute>
+		<attribute key="classification" value="4" />
+	</item>
+	<item id="52352" name="stag shinguards">
+		<attribute key="primarytype" value="boots"/>
+		<attribute key="absorbpercentenergy" value="5"/>
+		<attribute key="absorbpercentphysical" value="2"/>
+		<attribute key="speed" value="10"/>
+		<attribute key="skilldist" value="1"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="weight" value="1700"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="2"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="divine grenade" value="critical hit chance">
+				<attribute key="value" value="800"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="feet"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin, Ranger, Huntsman"/>
+		</attribute>
+		<attribute key="classification" value="4" />
+	</item>
+	<item id="52353" article="a" name="stag boots">
+		<attribute key="primarytype" value="boots"/>
+		<attribute key="magiclevelpoints" value="1"/>
+		<attribute key="earthmagiclevelpoints" value="1"/>
+		<attribute key="absorbpercentenergy" value="8"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="weight" value="1400"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="terra wave" value="critical hit chance">
+				<attribute key="value" value="650"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="feet"/>
+			<attribute key="vocation" value="Druid;true, Elder Druid, Cleric, Hierophant"/>
+		</attribute>
+		<attribute key="classification" value="4" />
+	</item>
+	<item id="52354" article="a" name="stag footwraps">
+		<attribute key="primarytype" value="boots"/>
+		<attribute key="skillfist" value="2"/>
+		<attribute key="absorbpercentdeath" value="3"/>
+		<attribute key="absorbpercentphysical" value="2"/>
+		<attribute key="armor" value="2"/>
+		<attribute key="weight" value="1400"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase speed" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="spiritual outburst" value="critical hit chance">
+				<attribute key="value" value="800"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="feet"/>
+			<attribute key="vocation" value="Monk;true, Exalted Monk, Soulwarden, Astral Master"/>
+		</attribute>
+		<attribute key="classification" value="4" />
+	</item>
+	<item id="52355" article="a" name="stag spellbook">
+		<attribute key="primarytype" value="spellbooks"/>
+		<attribute key="weaponType" value="shield"/>
+		<attribute key="absorbpercentphysical" value="2"/>
+		<attribute key="absorbpercentenergy" value="6"/>
+		<attribute key="magiclevelpoints" value="5"/>
+		<attribute key="defense" value="21"/>
+		<attribute key="weight" value="2000"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="great fire wave" value="critical hit chance">
+				<attribute key="value" value="100"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="shield"/>
+			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer, Runelord, Archmage"/>
+		</attribute>
+	</item>
+	<item id="52356" article="a" name="stag scrolls">
+		<attribute key="primarytype" value="spellbooks"/>
+		<attribute key="weaponType" value="shield"/>
+		<attribute key="absorbpercentphysical" value="2"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+		<attribute key="magiclevelpoints" value="5"/>
+		<attribute key="defense" value="21"/>
+		<attribute key="weight" value="2000"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="terra wave" value="critical hit chance">
+				<attribute key="value" value="100"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="shield"/>
+			<attribute key="vocation" value="Druid;true, Elder Druid, Cleric, Hierophant"/>
+		</attribute>
+	</item>
+	<item id="52357" article="a" name="stag shield">
+		<attribute key="primarytype" value="shields"/>
+		<attribute key="weaponType" value="shield"/>
+		<attribute key="absorbpercentphysical" value="5"/>
+		<attribute key="absorbpercentice" value="10"/>
+		<attribute key="defense" value="40"/>
+		<attribute key="weight" value="6000"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="elemental protection death" value="3"/>
+			<attribute key="elemental protection earth" value="3"/>
+			<attribute key="elemental protection fire" value="3"/>
+			<attribute key="elemental protection ice" value="3"/>
+			<attribute key="elemental protection energy" value="3"/>
+			<attribute key="elemental protection holy" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+		</attribute>
+		<attribute key="augments" value="1">
+			<attribute key="berserk" value="critical hit chance">
+				<attribute key="value" value="100"/>
+			</attribute>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="350"/>
+			<attribute key="slot" value="shield"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight, Warlord, Dreadlord"/>
+		</attribute>
+	</item>
+	<item id="52633" name="night harpy feathers">
+		<attribute key="weight" value="750"/>
+	</item>
+	<item id="52657" article="a" name="fiery crypt rune">
+		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
+		<attribute key="weight" value="500"/>
+	</item>
+	<item id="52658" article="an" name="icy crypt rune">
+		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
+		<attribute key="weight" value="500"/>
+	</item>
+	<item id="52659" article="a" name="deathly crypt rune">
+		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
+		<attribute key="weight" value="500"/>
+	</item>
+	<item id="52660" article="an" name="ancient crypt rune">
+		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
+		<attribute key="weight" value="500"/>
+	</item>
+	<item id="52661" article="a" name="necromantic crypt rune">
+		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
+		<attribute key="weight" value="500"/>
+	</item>
+	<item id="52708" article="a" name="fetid heart">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52709" article="a" name="cryptic fossil">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52710" article="a" name="worn guide book">
+		<attribute key="description" value="Compiled Quest Solutions for Dummies."/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52711" article="a" name="golden claw">
+		<attribute key="weight" value="455"/>
+	</item>
+	<item id="52712" article="a" name="shrunken head">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52713" article="an" name="ancient scales">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52714" article="a" name="soul trap">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52717" article="a" name="bone spikes">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52726" article="an" name="icy scales">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52727" article="an" name="icy horns">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52728" article="a" name="frozen crapace">
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="52746" article="a" name="twisted marionette">
+		<attribute key="description" value="A twisted marionette once in the possession of an evil warlock."/>
+		<attribute key="weight" value="1001"/>
+	</item>
+	<item id="52747" article="a" name="broken staff of mind control">
+		<attribute key="description" value="A broken staff with a skull on one end. One of the means of which an evil warlock controlled the minds of others."/>
+		<attribute key="weight" value="1001"/>
+	</item>
 	<item id="53162" article="an" name="superior mana potion">
 		<attribute key="primarytype" value="liquids"/>
 		<attribute key="description" value="This potion can only be consumed by paladins, monks, sorcerers and druids of level 100 or higher."/>
@@ -78157,351 +78503,5 @@
 			</attribute>
 		</attribute>
 		<attribute key="classification" value="4" />
-	</item>
-	<item id="40527" article="a" name="rotten feather">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item id="40528" article="a" name="ritual tooth">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item id="40529" name="gold-brocaded cloth">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item id="44438" article="a" name="broken mitmah necklace">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item id="44439" article="a" name="crystal of the mitmah">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item id="44727" article="a" name="broken mitmah chestplate">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="44728" article="a" name="splintered mitmah gem">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item id="44739" name="encrypted notes">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item id="52348" article="a" name="stag helmet">
-		<attribute key="primarytype" value="helmets"/>
-		<attribute key="firemagiclevelpoints" value="2"/>
-		<attribute key="absorbpercentenergy" value="8"/>
-		<attribute key="magiclevelpoints" value="2"/>
-		<attribute key="absorbpercentphysical" value="2"/>
-		<attribute key="armor" value="8"/>
-		<attribute key="weight" value="1400"/>
-		<attribute key="imbuementslot" value="2">
-			<attribute key="mana leech" value="3"/>
-			<attribute key="skillboost axe" value="3"/>
-			<attribute key="skillboost sword" value="3"/>
-			<attribute key="skillboost club" value="3"/>
-			<attribute key="skillboost shielding" value="3"/>
-			<attribute key="skillboost distance" value="3"/>
-			<attribute key="skillboost magic level" value="3"/>
-		</attribute>
-		<attribute key="augments" value="1">
-			<attribute key="great fire wave" value="critical hit chance">
-				<attribute key="value" value="650"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="head"/>
-			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer, Runelord, Archmage"/>
-		</attribute>
-		<attribute key="classification" value="4" />
-	</item>
-	<item id="52349" article="a" name="stag robe">
-		<attribute key="primarytype" value="armors"/>
-		<attribute key="absorbpercentphysical" value="4"/>
-		<attribute key="skillfist" value="4"/>
-		<attribute key="armor" value="10"/>
-		<attribute key="mantra" value="17"/>
-		<attribute key="weight" value="8000"/>
-		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3"/>
-			<attribute key="elemental protection death" value="3"/>
-			<attribute key="elemental protection earth" value="3"/>
-			<attribute key="elemental protection fire" value="3"/>
-			<attribute key="elemental protection ice" value="3"/>
-			<attribute key="elemental protection energy" value="3"/>
-			<attribute key="elemental protection holy" value="3"/>
-		</attribute>
-		<attribute key="augments" value="1">
-			<attribute key="spiritual outburst" value="critical hit chance">
-				<attribute key="value" value="100"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="armor"/>
-			<attribute key="vocation" value="Monk;true, Exalted Monk, Soulwarden, Astral Master"/>
-		</attribute>
-		<attribute key="classification" value="4" />
-	</item>
-	<item id="52350" article="a" name="stag plate">
-		<attribute key="primarytype" value="armors"/>
-		<attribute key="absorbpercentphysical" value="6"/>
-		<attribute key="skillshield" value="3"/>
-		<attribute key="skilldist" value="3"/>
-		<attribute key="armor" value="17"/>
-		<attribute key="weight" value="13000"/>
-		<attribute key="imbuementslot" value="2">
-			<attribute key="life leech" value="3"/>
-			<attribute key="elemental protection death" value="3"/>
-			<attribute key="elemental protection earth" value="3"/>
-			<attribute key="elemental protection fire" value="3"/>
-			<attribute key="elemental protection ice" value="3"/>
-			<attribute key="elemental protection energy" value="3"/>
-			<attribute key="elemental protection holy" value="3"/>
-		</attribute>
-		<attribute key="augments" value="1">
-			<attribute key="divine grenade" value="critical hit chance">
-				<attribute key="value" value="1000"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="armor"/>
-			<attribute key="vocation" value="Paladin;true, Royal Paladin, Ranger, Huntsman"/>
-		</attribute>
-		<attribute key="classification" value="4" />
-	</item>
-	<item id="52351" name="stag legs">
-		<attribute key="primarytype" value="legs"/>
-		<attribute key="absorbpercentfire" value="7"/>
-		<attribute key="absorbpercentphysical" value="7"/>
-		<attribute key="skillsword" value="3"/>
-		<attribute key="skillaxe" value="3"/>
-		<attribute key="skillclub" value="3"/>
-		<attribute key="skillshield" value="2"/>
-		<attribute key="armor" value="10"/>
-		<attribute key="weight" value="1150"/>
-		<attribute key="augments" value="1">
-			<attribute key="fierce berserk" value="critical extra damage">
-				<attribute key="value" value="1000"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="legs"/>
-			<attribute key="vocation" value="Knight;true, Elite Knight, Warlord, Dreadlord"/>
-		</attribute>
-		<attribute key="classification" value="4" />
-	</item>
-	<item id="52352" name="stag shinguards">
-		<attribute key="primarytype" value="boots"/>
-		<attribute key="absorbpercentenergy" value="5"/>
-		<attribute key="absorbpercentphysical" value="2"/>
-		<attribute key="speed" value="10"/>
-		<attribute key="skilldist" value="1"/>
-		<attribute key="armor" value="2"/>
-		<attribute key="weight" value="1700"/>
-		<attribute key="imbuementslot" value="1">
-			<attribute key="increase speed" value="2"/>
-		</attribute>
-		<attribute key="augments" value="1">
-			<attribute key="divine grenade" value="critical hit chance">
-				<attribute key="value" value="800"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="feet"/>
-			<attribute key="vocation" value="Paladin;true, Royal Paladin, Ranger, Huntsman"/>
-		</attribute>
-		<attribute key="classification" value="4" />
-	</item>
-	<item id="52353" article="a" name="stag boots">
-		<attribute key="primarytype" value="boots"/>
-		<attribute key="magiclevelpoints" value="1"/>
-		<attribute key="earthmagiclevelpoints" value="1"/>
-		<attribute key="absorbpercentenergy" value="8"/>
-		<attribute key="armor" value="2"/>
-		<attribute key="weight" value="1400"/>
-		<attribute key="imbuementslot" value="1">
-			<attribute key="increase speed" value="3"/>
-		</attribute>
-		<attribute key="augments" value="1">
-			<attribute key="terra wave" value="critical hit chance">
-				<attribute key="value" value="650"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="feet"/>
-			<attribute key="vocation" value="Druid;true, Elder Druid, Cleric, Hierophant"/>
-		</attribute>
-		<attribute key="classification" value="4" />
-	</item>
-	<item id="52354" article="a" name="stag footwraps">
-		<attribute key="primarytype" value="boots"/>
-		<attribute key="skillfist" value="2"/>
-		<attribute key="absorbpercentdeath" value="3"/>
-		<attribute key="absorbpercentphysical" value="2"/>
-		<attribute key="armor" value="2"/>
-		<attribute key="weight" value="1400"/>
-		<attribute key="imbuementslot" value="1">
-			<attribute key="increase speed" value="3"/>
-		</attribute>
-		<attribute key="augments" value="1">
-			<attribute key="spiritual outburst" value="critical hit chance">
-				<attribute key="value" value="800"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="feet"/>
-			<attribute key="vocation" value="Monk;true, Exalted Monk, Soulwarden, Astral Master"/>
-		</attribute>
-		<attribute key="classification" value="4" />
-	</item>
-	<item id="52355" article="a" name="stag spellbook">
-		<attribute key="primarytype" value="spellbooks"/>
-		<attribute key="weaponType" value="shield"/>
-		<attribute key="absorbpercentphysical" value="2"/>
-		<attribute key="absorbpercentenergy" value="6"/>
-		<attribute key="magiclevelpoints" value="5"/>
-		<attribute key="defense" value="21"/>
-		<attribute key="weight" value="2000"/>
-		<attribute key="imbuementslot" value="1">
-			<attribute key="elemental protection death" value="3"/>
-			<attribute key="elemental protection earth" value="3"/>
-			<attribute key="elemental protection fire" value="3"/>
-			<attribute key="elemental protection ice" value="3"/>
-			<attribute key="elemental protection energy" value="3"/>
-			<attribute key="elemental protection holy" value="3"/>
-			<attribute key="skillboost shielding" value="3"/>
-		</attribute>
-		<attribute key="augments" value="1">
-			<attribute key="great fire wave" value="critical hit chance">
-				<attribute key="value" value="100"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="shield"/>
-			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer, Runelord, Archmage"/>
-		</attribute>
-	</item>
-	<item id="52356" article="a" name="stag scrolls">
-		<attribute key="primarytype" value="spellbooks"/>
-		<attribute key="weaponType" value="shield"/>
-		<attribute key="absorbpercentphysical" value="2"/>
-		<attribute key="absorbpercentdeath" value="5"/>
-		<attribute key="magiclevelpoints" value="5"/>
-		<attribute key="defense" value="21"/>
-		<attribute key="weight" value="2000"/>
-		<attribute key="imbuementslot" value="1">
-			<attribute key="elemental protection death" value="3"/>
-			<attribute key="elemental protection earth" value="3"/>
-			<attribute key="elemental protection fire" value="3"/>
-			<attribute key="elemental protection ice" value="3"/>
-			<attribute key="elemental protection energy" value="3"/>
-			<attribute key="elemental protection holy" value="3"/>
-			<attribute key="skillboost shielding" value="3"/>
-		</attribute>
-		<attribute key="augments" value="1">
-			<attribute key="terra wave" value="critical hit chance">
-				<attribute key="value" value="100"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="shield"/>
-			<attribute key="vocation" value="Druid;true, Elder Druid, Cleric, Hierophant"/>
-		</attribute>
-	</item>
-	<item id="52357" article="a" name="stag shield">
-		<attribute key="primarytype" value="shields"/>
-		<attribute key="weaponType" value="shield"/>
-		<attribute key="absorbpercentphysical" value="5"/>
-		<attribute key="absorbpercentice" value="10"/>
-		<attribute key="defense" value="40"/>
-		<attribute key="weight" value="6000"/>
-		<attribute key="imbuementslot" value="1">
-			<attribute key="elemental protection death" value="3"/>
-			<attribute key="elemental protection earth" value="3"/>
-			<attribute key="elemental protection fire" value="3"/>
-			<attribute key="elemental protection ice" value="3"/>
-			<attribute key="elemental protection energy" value="3"/>
-			<attribute key="elemental protection holy" value="3"/>
-			<attribute key="skillboost shielding" value="3"/>
-		</attribute>
-		<attribute key="augments" value="1">
-			<attribute key="berserk" value="critical hit chance">
-				<attribute key="value" value="100"/>
-			</attribute>
-		</attribute>
-		<attribute key="script" value="moveevent">
-			<attribute key="level" value="350"/>
-			<attribute key="slot" value="shield"/>
-			<attribute key="vocation" value="Knight;true, Elite Knight, Warlord, Dreadlord"/>
-		</attribute>
-	</item>
-	<item id="52633" name="night harpy feathers">
-		<attribute key="weight" value="750"/>
-	</item>
-	<item id="52657" article="a" name="fiery crypt rune">
-		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
-		<attribute key="weight" value="500"/>
-	</item>
-	<item id="52658" article="an" name="icy crypt rune">
-		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
-		<attribute key="weight" value="500"/>
-	</item>
-	<item id="52659" article="a" name="deathly crypt rune">
-		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
-		<attribute key="weight" value="500"/>
-	</item>
-	<item id="52660" article="an" name="ancient crypt rune">
-		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
-		<attribute key="weight" value="500"/>
-	</item>
-	<item id="52661" article="a" name="necromantic crypt rune">
-		<attribute key="description" value="This rune pulses with corrupt magic bound into bone. Only by offering a complete set to the guardian spirit may its blight be undone."/>
-		<attribute key="weight" value="500"/>
-	</item>
-	<item id="52708" article="a" name="fetid heart">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52709" article="a" name="cryptic fossil">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52710" article="a" name="worn guide book">
-		<attribute key="description" value="Compiled Quest Solutions for Dummies."/>
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52711" article="a" name="golden claw">
-		<attribute key="weight" value="455"/>
-	</item>
-	<item id="52712" article="a" name="shrunken head">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52713" article="an" name="ancient scales">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52714" article="a" name="soul trap">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52717" article="a" name="bone spikes">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52726" article="an" name="icy scales">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52727" article="an" name="icy horns">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52728" article="a" name="frozen crapace">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item id="52746" article="a" name="twisted marionette">
-		<attribute key="description" value="A twisted marionette once in the possession of an evil warlock."/>
-		<attribute key="weight" value="1001"/>
-	</item>
-	<item id="52747" article="a" name="broken staff of mind control">
-		<attribute key="description" value="A broken staff with a skull on one end. One of the means of which an evil warlock controlled the minds of others."/>
-		<attribute key="weight" value="1001"/>
 	</item>
 </items>
