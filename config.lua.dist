@@ -154,31 +154,36 @@ exhaustItemAtUsePotion = true
 -- Optional custom systems
 -- Most optional systems default to false for closer 8.60 behavior.
 -- Quick Loot defaults to true because the Astra managed-loot UI expects it.
-forgeSystemEnabled = true
-imbuementSystemEnabled = true
-monkVocationEnabled = true
-familiarSystemEnabled = true
-wheelSystemEnabled = true
+forgeSystemEnabled = false
+imbuementSystemEnabled = false
+monkVocationEnabled = false
+familiarSystemEnabled = false
+wheelSystemEnabled = false
 -- Enabling Bestiary loads its scripts and monster registry during startup.
 -- Restart the server after changing this option from false to true.
-bestiarySystemEnabled = true
-marketSystemEnabled = true
-preySystemEnabled = true
-battlePassSystemEnabled = true
+bestiarySystemEnabled = false
+-- Echo Raid requires Bestiary and is opt-in. Restart after enabling it.
+-- Portal odds are 100 / 200000 (0.05%) by default; tune both values together.
+echoRaidSystemEnabled = false
+echoRaidPortalSpawnNumerator = 100
+echoRaidPortalSpawnDenominator = 200000
+marketSystemEnabled = false
+preySystemEnabled = false
+battlePassSystemEnabled = false
 -- Highest reward level transmitted by the Battle Pass reward track.
 battlePassRewardMaxStep = 50
 -- Level that must be completed before the Battle Pass shop is unlocked.
 -- Must be between 1 and battlePassRewardMaxStep.
 battlePassShopUnlockStep = 50
-weaponProficiencySystemEnabled = true
-augmentSystemEnabled = true
+weaponProficiencySystemEnabled = false
+augmentSystemEnabled = false
 monsterLevelEnabled = false
-monsterFactionSystem = true
+monsterFactionSystem = false
 monsterFactionRequirePlayerNearby = true
 monsterFactionPreferPlayers = true
-enableColorizedLootValue = true
-enableItemTierDisplay = true
-enableItemUpgradeClassification = true
+enableColorizedLootValue = false
+enableItemTierDisplay = false
+enableItemUpgradeClassification = false
 enableQuickLoot = true
 quickLootMaxCorpses = 30
 
@@ -196,7 +201,7 @@ storeXpBoostPercent = 50
 storeXpBoostDefaultDuration = 3600
 
 -- Character Bazaar (accounts.tibia_coins is the transferable coin balance)
-characterBazaarEnabled = true
+characterBazaarEnabled = false
 characterBazaarMinLevel = 50
 characterBazaarMinPrice = 100
 characterBazaarAuctionFee = 50
@@ -207,22 +212,22 @@ characterBazaarMaxDurationDays = 7
 -- Enable Task Hunt / Task Board system.
 -- Requires compatible AstraClient/OTCv8 support.
 -- Default: false keeps classic 8.60 behaviour.
-taskHuntingSystemEnabled = true
+taskHuntingSystemEnabled = false
 
 -- Enable Bounty Tasks inside Task Board.
 -- Requires taskHuntingSystemEnabled.
-bountyTasksEnabled = true
+bountyTasksEnabled = false
 
 -- Enable Weekly Tasks inside Task Board.
 -- Requires taskHuntingSystemEnabled.
-weeklyTasksEnabled = true
+weeklyTasksEnabled = false
 
 -- Enable Soulpit arena / soul core system.
-soulpitSystemEnabled = true
+soulpitSystemEnabled = false
 
 -- Enable Soulseals resource/window.
 -- Requires weeklyTasksEnabled or proper source of soulseals.
-soulsealsSystemEnabled = true
+soulsealsSystemEnabled = false
 
 -- Static item augment defaults. Item-specific values can override these in items.xml.
 augmentIncreasedDamagePercent = 5
@@ -300,9 +305,9 @@ maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
 mysqlHost = "127.0.0.1"
-mysqlUser = "root"
+mysqlUser = "forgottenserver"
 mysqlPass = ""
-mysqlDatabase = "860"
+mysqlDatabase = "forgottenserver"
 mysqlPort = 3306
 mysqlSock = ""
 
